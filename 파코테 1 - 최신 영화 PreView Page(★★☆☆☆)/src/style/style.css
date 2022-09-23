@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*유틸리티*/
+/*스크린리더 전용*/
+.sr-only {
+    position: absolute;
+    left: -1000000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/*한줄 말 줄임*/
+.sl-ellipsis {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*두줄 말 줄임*/
